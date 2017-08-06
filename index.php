@@ -12,6 +12,33 @@
 			<h2>On Click</h2>
 			<p>What happens when you click here?</p>
 			<div id="click" onclick="clickEvent();">Nice!</div>
-			<p></p>.
+			<h2>Mouse Over</h2>
+			<p>What happens when you mouse over and back?</p>
+			<div id="mouse" onmouseover="mouseOver();" onmouseout="mouseOut();">
+				<p>Virual craft beer glossier snackwave helvetica dreamcatcher pop-up health goth gastropub pug semiotics fingerstache
+				leggings letterpress cred. Umami asymmetrical cred, tofu irony green juice chillwave franzen pickled vexillologist
+				sartorial scenester listicle. Man braid twee knausgaard PBR&B, cornhole roof party post-ironic humblebrag occupy.
+				Meh waistcoat wolf, listicle kombucha scenester vinyl. Lo-fi gochujang organic activated charcoal chambray.
+				Occupy bespoke bitters tacos cred subway tile tumeric umami tbh. Kale chips prism vinyl pork belly hoodie hashtag.
+				Post-ironic hoodie taxidermy, whatever dreamcatcher stumptown flexitarian. Poutine vape hexagon mixtape,
+				helvetica semiotics blog ethical crucifix hell of try-hard. Irony disrupt chillwave, stumptown slow-carb +1 hella DIY hammock austin pour-over gluten-free.
+				</p>
+			</div>
+		<h2>Double Click</h2>
+		<p>What happens when you double click?</p>
+		<div id="doubleClick" ondblclick="doubleClick();">
+			<p>
+				Bacon ipsum dolor amet pig filet mignon pork belly jerky short loin leberkas ball tip t-bone.
+				Burgdoggen corned beef flank chicken, venison pig pork loin tongue filet mignon short ribs shank tail
+				picanha porchetta meatloaf. Jerky bresaola shoulder pastrami burgdoggen salami fatback venison. Biltong
+				hamburger tail ball tip, turducken filet mignon doner pork tri-tip short ribs. Tongue sirloin pancetta swine venison.
+				Sausage cupim pig pork belly ball tip tail flank filet mignon jerky bresaola.
+			</p>
+		</div>
+		<h2>Find and Replace</h2>
+		<p>What happens when you...</p>
+		<div id="doubleClick" ondblclick="doubleClick();">
+
+		</div>
 	</body>
 </html>

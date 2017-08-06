@@ -3,16 +3,16 @@
 	width: 150px;
 	text-align: center;
 	line-height: 150px;
-	color: #fff;
-	background-color: #999;
+	color: blue;
+	background-color: red;
 }
 #mouse {
-	height: 150px;
-	width: 150px;
-	text-align: center;
-	line-height: 150px;
 	color: #fff;
 	background-color: blue;
+}
+#doubleClick {
+	color: black;
+	font-family: "Arial Black";
 }
 #moreInfo {
 	display: none;

@@ -18,7 +18,12 @@ function mouseOver() {
 function mouseOut() {
 	document.getElementById("mouse").style.backgroundColor = "blue";
 }
-
+/**
+ * changes font when double clicked
+ **/
+function doubleClick() {
+	document.getElementById("doubleClick").style.fontFamily = "Arial Hebrew";
+}
 /**
  * hides/shows the textarea when the checkbox is unchecked/checked
  **/
