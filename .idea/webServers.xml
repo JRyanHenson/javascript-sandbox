@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="461b3e72-2633-4e77-b5bb-576bba200f47" name="javascript-sandbox" url="https://bootcamp-coders.cnm.edu/~jhenson9/javascript-sandbox/">
+        <fileTransfer host="bootcamp-coders.cnm.edu" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/home/jhenson9/public_html/javascript-sandbox" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
