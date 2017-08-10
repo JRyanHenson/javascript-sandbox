@@ -5,6 +5,7 @@
 		<link type="text/css" href="css/styles.css" rel="stylesheet">
 		<link type="text/css" href="css/javascript-events.css" rel="stylesheet">
 		<script src="js/javascript-events.js" type="text/javascript"></script>
+		<script src="js/jquery-3.2.1.js" type="text/javascript"></script>
 		<title>JavaScript Challenge</title>
 	</head>
 	<body>
@@ -47,5 +48,13 @@
 			<p>Replacment: <input id="replacement" name="replacement" type="text"</p>
 		<br>
 		<p><input type="button" value="Find" onClick="findMyText(document.getElementById('find').value, document.getElementById('replacement').value);"></p>
+		<h2>JSON and Ajax Practice</h2>
+		<p>Albuquerque City Council district polygon data used</p>
+		<button id="btn">Get JSON Data</button>
+		<div id="json"></div>
+		<h2>Bacon Ipsum API Practice</h2>
+		<button id="baconButton">Get Bacon</button>
+		<div id="baconRoom"></div>
+		<script src="js/main.js" type="text/javascript"></script>
 	</body>
 </html>
