@@ -16,10 +16,31 @@ function renderHTML(data) {
 	var htmlString = "";
 	var jsonContainer = document.getElementById("json");
 
-	for (i = 0; i < data.length; i++) {
+	for(i = 0; i < data.length; i++) {
 		htmlString += "<p>District " + data[i].properties.DISTRICTNUMBER + " City Councilor " + data[i].properties.COUNCILORNAME + "<br>" + "Polygon Coordinates for District:" + "<br>" + data[i].geometry.coordinates[0] + "</p>";
 	}
 	jsonContainer.innerHTML += htmlString;
+}
+
+// array of user data received
+
+var userData = [];
+
+// jQuery ready event to make an AJAX call
+	$(document).ready(function() {
+		$.ajax({method: "GET", url: "https://bootcamp-coders.cnm.edu/~jhenson9/javascript-sandbox/json/Council_Districts.geojson"}).done(function(data) {
+			// store the AJAX data in the user array
+			userData = data
+		});
+	});
+
+// populate the closure table
+
+function populateClosure() {
+	// use the forEach() method that uses a closure to build the user table
+	userData.forEach(function(district) {
+		$("#closureTable").append("<tr><td>" + district.properties.DISTRICTNUMBER + "</td><td>" + district.properties.COUNCILORNAME + "</td><td>" + district.data.geometry.coordinates[0]);
+	});
 }
 
 $(document).ready(function()

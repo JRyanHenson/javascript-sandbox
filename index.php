@@ -52,8 +52,12 @@
 		<p>Albuquerque City Council district polygon data used</p>
 		<button id="btn">Get JSON Data</button>
 		<div id="json"></div>
+		<h2>Closures</h2>
+		<table id="closureTable" class="table table-bordered table-striped">
+			<tr><th>District Name</th><th>Councilor Name</th><th>Polygon Data</th></tr>
+		</table>
+		<button class="btn btn-lg" onclick="populateClosure()">Use Closures</button>
 		<h2>Bacon Ipsum API Practice</h2>
-		<button id="baconButton">Get Bacon</button>
 		<div id="baconRoom"></div>
 		<script src="js/main.js" type="text/javascript"></script>
 	</body>
